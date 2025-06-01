@@ -1,0 +1,89 @@
+1. Văn Phương (Data Preparation & Heart Disease Dataset)
+Nhiệm vụ chính:
+Chuẩn bị dữ liệu cho cả 3 datasets (Heart, Penguins, Tự chọn):
+
+Download dataset, kiểm tra missing values, xử lý categorical features (one-hot encoding cho Penguins).
+
+Chia train/test theo tỉ lệ 40/60, 60/40, 80/20, 90/10 (dùng train_test_split với stratify).
+
+Visualize phân phối lớp bằng seaborn.countplot() cho từng tập.
+
+Phụ trách Heart Disease Dataset:
+
+Train Decision Tree (criterion="entropy"), visualize cây bằng graphviz.
+
+Đánh giá bằng classification_report, confusion_matrix.
+
+Khảo sát max_depth (None, 2, 3, 4, 5, 6, 7) trên tỉ lệ 80/20, report accuracy.
+
+Kết quả cần nộp:
+Code xử lý dữ liệu + hình ảnh phân phối lớp.
+
+Code + hình cây Decision Tree (Heart Disease) + bảng accuracy theo max_depth.
+
+2. Mạnh Phương (Penguins Dataset & Visualization)
+Nhiệm vụ chính:
+Phụ trách Palmer Penguins Dataset:
+
+Train Decision Tree, visualize cây với các tỉ lệ train/test khác nhau.
+
+Đánh giá bằng classification report/confusion matrix.
+
+Khảo sát max_depth (tương tự Heart Disease).
+
+Tổng hợp visualization:
+
+Tạo biểu đồ so sánh accuracy giữa các tỉ lệ train/test (dùng matplotlib).
+
+
+Kết quả cần nộp:
+Code + hình cây Decision Tree (Penguins) + biểu đồ so sánh accuracy.
+
+File slide (nếu có).
+
+3. Lê Văn Quang (Additional Dataset & Comparative Analysis)
+Nhiệm vụ chính:
+Tìm và phân tích dataset tự chọn:
+
+Chọn dataset đúng yêu cầu (≥300 mẫu, có nhãn, multi-class/binary).
+
+Mô tả chi tiết trong báo cáo: nguồn gốc, số features, ý nghĩa các lớp.
+
+Lặp lại quy trình như 2 dataset trên (train/test, Decision Tree, đánh giá).
+
+Viết comparative analysis:
+
+So sánh accuracy, thời gian train, độ phức tạp cây giữa 3 datasets.
+
+Giải thích tại sao dataset này có kết quả tốt/xấu hơn.
+
+Kết quả cần nộp:
+Code + hình ảnh dataset tự chọn.
+
+Bảng so sánh + nhận xét trong báo cáo.
+
+4. Kim Phượng (Report & GitHub Management)
+Nhiệm vụ chính:
+Tổng hợp báo cáo:
+Tạo workspace google colab
+
+Viết Introduction (giới thiệu bài toán, datasets).
+
+Conclusion (tổng kết insights, hạn chế, hướng phát triển).
+
+Kiểm tra format báo cáo (PDF), đảm bảo hình ảnh không bị crop.
+
+Quản lý GitHub:
+
+Tạo repository, upload code + dataset.
+
+Phân quyền truy cập cho các thành viên.
+
+Kiểm tra chéo:
+
+Đảm bảo tất cả task được hoàn thành, code chạy không lỗi.
+
+Kết quả cần nộp:
+File báo cáo PDF hoàn chỉnh.
+
+Link GitHub repository.
